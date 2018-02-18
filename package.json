@@ -1,0 +1,25 @@
+{
+  "name": "constructor-hangman",
+  "version": "1.0.0",
+  "description": "Instructions\r The completed game should meet the following criteria:",
+  "main": "letter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katophelix/Constructor-Hangman.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katophelix/Constructor-Hangman/issues"
+  },
+  "homepage": "https://github.com/katophelix/Constructor-Hangman#readme",
+  "dependencies": {
+    "inquirer": "^5.1.0",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
