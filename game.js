@@ -2,12 +2,8 @@
 
 var Word = require('./word');
 var inquirer = require('inquirer');
-// var guessesLeft = 10;
-// var lettersGuessed = [];
-// // var wordList = ["cats", "wicked", "rent", "oklahoma", "phantom", "matilda"];
-// // var randomWord = wordList[Math.floor(Math.random() * wordList.length)];
-// // var currentWord = new Word(randomWord);
-// var alreadyGuessed = false;
+
+
 
 // Create a Game constructor
 function Game() {
@@ -108,7 +104,7 @@ function Game() {
         // if correct
         // Log correct
 
-        console.log("I'm here");
+        
         var didGuessCorrectly = self.currentWord.guessLetter(answer.letterChoice);
         if (didGuessCorrectly) {
           console.log("Correct.");
